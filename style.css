@@ -1,7 +1,10 @@
 body {
     margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
 
+ul {
+    padding: 0;
 }
 
 a {
@@ -16,22 +19,14 @@ span {
     display: block;
 }
 
-
-.button1 {
-    background-color: #3882f6;
-    border-radius: 8px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: white;
-    font-weight: bold;
-    font-size: 15px;
-    padding: 2px 12px 2px 12px;
-  }
-
 .link{
     font-size: 18px;
     color: #E5E7EB;
     margin-right: 10px;
 }
+
+
+/* Header section starts here */
 
 .header{
     display: flex;
@@ -53,26 +48,78 @@ span {
     padding: 10px;
 }
 
-.body {
+/* Header section ends here */
+
+/* Main content section starts here */
+
+.container {
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    height: 450px;
+    height: 500px;
     background-color: #1F2937;
+    padding: 25px;
 }
 
-.container .title {
+.title {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
 }
-
-.container .title-text {
+.title-text {
     font-size: 18px;
     color: #E5E7EB;
 }
 
 .title, .title-text{
     margin-bottom: -10px;
+}
+
+/* Main content section ends here */
+
+/* "Second-content" section  starts here */
+
+
+.second-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title1 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin-top: 60px;
+}
+
+.images {
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 150px;
+}
+
+.icon {
+    width: 150px;
+    height: auto;
+    padding: 15px;
+    padding-bottom: 35px;
+    display: flex;
+}
+
+.icon-text {
+    font-size: 18px;
+}
+
+.image {
+    text-align: center;
 }
